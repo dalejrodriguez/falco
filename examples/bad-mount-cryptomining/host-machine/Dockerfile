@@ -1,4 +1,4 @@
-FROM docker:stable-dind
+FROM docker:19-dind
 
 RUN set -ex \
     && apk add --no-cache \
